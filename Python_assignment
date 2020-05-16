@@ -1,0 +1,46 @@
+list1 = ['physics', 'chemistry', 1997, 2000];
+list2 = [1, 2, 3, 4, 5, 6, 7 ];
+print "list1[0]: ", list1[0]
+print "list2[1:5]: ", list2[1:5]
+
+# Different types of tuples
+
+# Empty tuple
+my_tuple = ()
+print(my_tuple)
+
+# Tuple having integers
+my_tuple = (1, 2, 3)
+print(my_tuple)
+
+# tuple with mixed datatypes
+my_tuple = (1, "Hello", 3.4)
+print(my_tuple)
+
+# nested tuple
+my_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
+print(my_tuple)
+
+
+
+# Create a Python dictionary
+sixMonths = {1:31, 2:28, 3:31, 4:30, 5:31, 6:30}
+
+# Delete a specific element
+print(sixMonths.pop(6)) 
+print(sixMonths)
+
+# Delete an random element
+print(sixMonths.popitem())
+print(sixMonths)
+
+# Remove a specific element
+del sixMonths[5]
+print(sixMonths)
+
+# Delete all elements from the dictionary
+sixMonths.clear()
+print(sixMonths)
+
+
+
